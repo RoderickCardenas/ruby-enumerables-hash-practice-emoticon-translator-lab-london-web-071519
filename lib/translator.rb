@@ -22,6 +22,9 @@ def get_japanese_emoticon(emotes, emoticon)
   emotes = load_library(emotes)
   
   if emotes.values[1].keys.include?(emoticon)
+    emotes.values[1][emoticon]
+  else
+    
   # emotes.each do |getting, japaneseEmotesEnglishTranslation|
     #key is get get_meaning
     #value is japanese emotes => english meaning
