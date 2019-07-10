@@ -5,7 +5,7 @@ emotes = YAML.load_file('lib/emoticons.yml')
 
 def load_library(emotes)
   emotes = YAML.load_file('lib/emoticons.yml')
-    emotes.each |key, value|
+    emotes.each |key value|
     binding.pry
     end
 end
