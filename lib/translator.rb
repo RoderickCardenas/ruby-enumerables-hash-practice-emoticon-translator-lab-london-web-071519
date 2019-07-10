@@ -24,7 +24,8 @@ def get_japanese_emoticon(emotes, emoticon)
   emotes.each do |key, value|
     #key is get get_meaning
     #value is japanese emotes => english meaning
-    #value.values
+    #value.values is english meaning
+    #value.values[0]
     binding.pry
   end
 end
