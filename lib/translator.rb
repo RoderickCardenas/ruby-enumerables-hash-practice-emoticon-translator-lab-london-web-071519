@@ -19,7 +19,7 @@ end
 
 
 def get_japanese_emoticon(emotes, emoticon)
-  load_library(emotes)
+  emotes = load_library(emotes)
   binding.pry
 end
 
