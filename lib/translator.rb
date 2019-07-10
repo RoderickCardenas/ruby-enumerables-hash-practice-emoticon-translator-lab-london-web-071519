@@ -5,7 +5,6 @@ emotes = YAML.load('lib/emoticons.yml')
 
 def load_library(emotes)
  emotes
- binding.pry
 end
 
 def get_japanese_emoticon
