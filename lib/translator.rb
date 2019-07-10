@@ -21,11 +21,13 @@ end
 def get_japanese_emoticon(emotes, emoticon)
   emotes = load_library(emotes)
   
-  emotes.each do |key, value|
+  emotes.each do |getting, japaneseEmotesEnglishTranslation|
     #key is get get_meaning
     #value is japanese emotes => english meaning
     #value.values is english meaning
     #value.values[0] is english meaning one by one.
+    japaneseEmotesEnglishTranslation.each do |k, v|
+    end
     
     binding.pry
   end
