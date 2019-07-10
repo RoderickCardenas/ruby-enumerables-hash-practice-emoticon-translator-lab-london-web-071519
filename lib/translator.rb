@@ -11,8 +11,6 @@ def load_library(emotes)
   emotes = YAML.load_file('lib/emoticons.yml')
     emotes.each do |key, value|
       newHash[key]
-      newHash["get_meaning"] = 
-      binding.pry
     end
   newHash
 end
