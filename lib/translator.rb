@@ -22,6 +22,9 @@ def get_japanese_emoticon(emotes, emoticon)
   emotes = load_library(emotes)
   
   emotes.each do |key, value|
+    #key is get get_meaning
+    #value is japanese emotes => english meaning
+    #value.values
     binding.pry
   end
 end
