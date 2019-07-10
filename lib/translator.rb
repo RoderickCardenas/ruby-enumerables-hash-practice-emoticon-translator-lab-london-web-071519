@@ -12,6 +12,7 @@ def load_library(emotes)
     emotes.each do |key, value|
       newHash[key]
       newHash["get_meaning"] = value[1]
+      binding.pry
     end
   newHash
 end
