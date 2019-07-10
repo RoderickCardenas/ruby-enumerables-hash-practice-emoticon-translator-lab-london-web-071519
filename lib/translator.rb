@@ -10,8 +10,8 @@ def load_library(emotes)
     emotes.each do |key, value|
       newHash[key]
     end
-  newHash["get_meaning"] => {}
-  newHash["get_emoticon"] => {}
+  newHash["get_meaning"]
+  newHash["get_emoticon"]
   newHash
 end
 
