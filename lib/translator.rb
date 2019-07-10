@@ -22,7 +22,7 @@ def get_japanese_emoticon(emotes, emoticon)
   emotes = load_library(emotes)
   
   if emotes.values[1].keys.include?(emoticon)
-    return emotes.values[1][emoticon]
+     emotes.values[1][emoticon]
   end
   puts "Sorry, that emoticon was not found"
 
