@@ -20,6 +20,10 @@ end
 
 def get_japanese_emoticon(emotes, emoticon)
   emotes = load_library(emotes)
+  
+  emotes.each do |key, value|
+    binding.pry
+  end
 end
 
 def get_english_meaning
