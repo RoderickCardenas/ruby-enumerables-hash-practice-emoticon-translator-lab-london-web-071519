@@ -28,7 +28,8 @@ def get_japanese_emoticon(emotes, emoticon)
     #value.values[0] is english meaning one by one.
     emotes.each do |getting|
       
-    japaneseEmotesEnglishTranslation.each do |k, v|
+    
+    getting.each do |k, v|
     end
     
     binding.pry
