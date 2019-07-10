@@ -22,23 +22,12 @@ def get_japanese_emoticon(emotes, emoticon)
   emotes = load_library(emotes)
   
   if emotes.values[1].keys.include?(emoticon)
-    emotes.values[1][emoticon]
+    return emotes.values[1][emoticon]
   else
     
-  # emotes.each do |getting, japaneseEmotesEnglishTranslation|
-    #key is get get_meaning
-    #value is japanese emotes => english meaning
-    #value.values is english meaning
-    #value.values[0] is english meaning one by one.
-    emotes.each do |getting, japaneseEmotesEnglishTranslation|
-      
-    
-    japaneseEmotesEnglishTranslation.each do |k, v|
-          binding.pry
-    end
+  end
     
 
-  end
 end
 
 def get_english_meaning
