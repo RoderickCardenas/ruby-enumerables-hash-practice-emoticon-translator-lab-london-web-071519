@@ -25,7 +25,8 @@ def get_japanese_emoticon(emotes, emoticon)
     #key is get get_meaning
     #value is japanese emotes => english meaning
     #value.values is english meaning
-    #value.values[0]
+    #value.values[0] is english meaning one by one.
+    
     binding.pry
   end
 end
