@@ -29,7 +29,7 @@ def get_japanese_emoticon(emotes, emoticon)
     emotes.each do |getting, japaneseEmotesEnglishTranslation|
       
     
-    getting.each do |k, v|
+    japaneseEmotesEnglishTranslation.each do |k, v|
     end
     
     binding.pry
