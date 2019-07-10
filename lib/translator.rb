@@ -21,9 +21,6 @@ end
 def get_japanese_emoticon(emotes, emoticon)
   emotes = load_library(emotes)
   
-  emotes.each do |emote|
-      binding.pry
-  end
 
 end
 
