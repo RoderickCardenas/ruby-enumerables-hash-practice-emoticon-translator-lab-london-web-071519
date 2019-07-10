@@ -17,6 +17,7 @@ def load_library(emotes)
   newHash
 end
 
+
 def get_japanese_emoticon
   # code goes here
 end
