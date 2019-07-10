@@ -30,9 +30,10 @@ def get_japanese_emoticon(emotes, emoticon)
       
     
     japaneseEmotesEnglishTranslation.each do |k, v|
+          binding.pry
     end
     
-    binding.pry
+
   end
 end
 
