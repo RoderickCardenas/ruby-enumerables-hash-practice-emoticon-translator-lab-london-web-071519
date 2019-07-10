@@ -21,7 +21,7 @@ end
 def get_japanese_emoticon(emotes, emoticon)
   emotes = load_library(emotes)
   
-  emotes.each do |getting, japaneseEmotesEnglishTranslation|
+  # emotes.each do |getting, japaneseEmotesEnglishTranslation|
     #key is get get_meaning
     #value is japanese emotes => english meaning
     #value.values is english meaning
