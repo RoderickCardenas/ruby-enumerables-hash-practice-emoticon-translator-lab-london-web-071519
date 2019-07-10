@@ -35,6 +35,7 @@ def get_english_meaning(emotes, emoticon)
   
   if emotes.values[1].values.include?(emoticon)
     return emotes.values[1][emoticon]
+    binding.pry
   end
   
   if emotes.values[1].keys.include?(emoticon) == false
