@@ -8,8 +8,12 @@ def load_library(emotes)
   
   emotes = YAML.load_file('lib/emoticons.yml')
     emotes.each do |key, value|
+      newHash[key]
     binding.pry
     end
+  newHash["get_meaning"] => {}
+  newHash["get_emoticon"] => {}
+  newHash
 end
 
 def get_japanese_emoticon
