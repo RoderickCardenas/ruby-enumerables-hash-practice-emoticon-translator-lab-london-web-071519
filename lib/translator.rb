@@ -32,10 +32,8 @@ end
 
 def get_english_meaning(emotes, emoticon)
   emotes = load_library(emotes)
-      binding.pry
   if emotes.values[1].values.include?(emoticon)
     return emotes["get_meaning"][emoticon]
-
   end
   
   if emotes.values[1].keys.include?(emoticon) == false
