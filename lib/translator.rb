@@ -30,6 +30,14 @@ def get_japanese_emoticon(emotes, emoticon)
   end
 end
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(emotes, emoticon)
+  emotes = load_library(emotes)
+  
+  if emotes.values[1].keys.include?(emoticon)
+    return emotes.values[1][emoticon]
+  end
+  
+  if emotes.values[1].keys.include?(emoticon) == false
+    return "Sorry, that emoticon was not found"
+  end
 end
