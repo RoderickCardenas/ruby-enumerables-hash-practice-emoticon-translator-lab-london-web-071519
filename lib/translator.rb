@@ -4,15 +4,15 @@ require 'pry'
 emotes = YAML.load_file('lib/emoticons.yml')
 
 def load_library(emotes)
-  newArray = []
+  newHash = []
   
   emotes = YAML.load_file('lib/emoticons.yml')
     emotes.each do |key, value|
-      newArray << key
+      newHash[key]
     end
-  newArray << "get_meaning"
-  newArray << "get_emoticon"
-  newArray
+  newHash["get_meaning"]
+  newHash["get_emoticon"]
+  newHash
 end
 
 def get_japanese_emoticon
